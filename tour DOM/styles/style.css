@@ -1,0 +1,18 @@
+h1{
+    color: coral;
+}
+li{
+    color:red;
+}
+p{
+    color: rgb(22, 22, 169);
+}
+#places-title{
+    color: cadetblue;
+}
+#important-places{
+    color: chartreuse;
+}
+.yellow-bg{
+    background-color: yellowgreen;
+}

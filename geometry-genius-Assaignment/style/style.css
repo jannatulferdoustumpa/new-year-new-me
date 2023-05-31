@@ -1,0 +1,29 @@
+.btn{
+    background-color: antiquewhite;
+    right: 0;
+}
+.header{
+    margin: 2px;
+    background-color: cyan;
+}
+.button{
+    background-color: green;
+}
+.primary-color{
+    background-color:blue;
+}
+.overlay{
+    margin: 2px;
+}
+.section{
+    align-content: center;
+}
+.header{
+    margin: 2px;
+    background-color: aquamarine;
+}
+.row{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+
+}

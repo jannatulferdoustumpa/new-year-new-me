@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcom to my DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcom To My DOM</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus tempore perspiciatis voluptas eaque explicabo obcaecati culpa sunt soluta molestiae quas deleniti, in ipsum repellat repellendus, voluptatem ad eius? Eius, ipsam!</p>
+    </header>
+    <main id="main-container">
+        <section>
+        <h1>DOM de baba</h1>
+        <ul>
+            <li>Tumpa</li>
+            <li>Rasel</li>
+            <li>Arwa</li>
+            <li>Abdullah</li>
+        </ul>
+        </section>
+        <section id="Fruits-container">
+            <h1 id="Fruits-title" class="some-class random-class blue bg">I like Fruits</h1>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>carot</li>
+        </ul>
+        </section>
+        <section id="Places-container" class="large text">
+            <h1 id="Places-title">I like Places</h1>
+            <ul id="Places-list">
+                <li class="important-places">Makkha</li>
+                <li class="important-places">Madina</li>
+                <li class="important-places">jeddha</li>
+                <li class="onther-places">soudi-Arab</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/styleinjs.js"></script>
+    <script src="js/append.js"></script>
+    <script>
+        const licollection=document.getElementsByTagName('li');
+        for(const li of licollection){
+        // console.log(li.innerText);
+
+        }
+        const allHeadings=document.getElementsByTagName('h1');
+        for(const h1 of allHeadings){
+            // console.log(h1.innerText)
+        }
+        const classes=document.getElementsByClassName('important-classes');
+        for(const li of classes){
+            // console.log(classes.innerText);
+        }
+    </script>
+</body>
+</html>
